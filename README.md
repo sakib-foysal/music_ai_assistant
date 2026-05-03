@@ -44,6 +44,23 @@ Users can sign up, log in, select their mood, and instantly get music recommenda
 - Jamendo API (Music Source)
 
 ---
+## 📂 Project Structure
+```
+music_ai_assistant/
+│
+├── backend/
+│   ├── app/
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+---
 
 ## ⚙️ Installation & Setup
 
@@ -56,11 +73,12 @@ cd music_ai_assistant
 
 ### 🔹 2. Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 Create `.env` file:
 
 DATABASE_URL=mysql+pymysql://root:@localhost/music_ai_assistant
@@ -68,17 +86,17 @@ SECRET_KEY=your_secret_key
 JAMENDO_CLIENT_ID=your_client_id
 
 Run backend:
-
+```bash
 uvicorn app.main:app --reload
-
+```
 ---
 
 ### 🔹 3. Frontend Setup
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 ---
 
 ## 🌐 API Endpoints
