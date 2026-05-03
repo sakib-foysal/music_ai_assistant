@@ -1,0 +1,25 @@
+
+Backend
+
+cd music_ai_assistant/backend
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+
+
+
+
+Frontend
+
+cd music_ai_assistant/frontend
+npm run dev
+
+
+
+
+
+API
+
+https://aistudio.google.com/
+https://devportal.jamendo.com/
