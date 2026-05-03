@@ -45,24 +45,6 @@ Users can sign up, log in, select their mood, and instantly get music recommenda
 
 ---
 
-## 📂 Project Structure
-music_ai_assistant/
-│
-├── backend/
-│ ├── app/
-│ ├── requirements.txt
-│
-├── frontend/
-│ ├── src/
-│ ├── public/
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 🔹 1. Clone the repository
