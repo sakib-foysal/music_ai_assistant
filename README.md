@@ -46,20 +46,20 @@ Users can sign up, log in, select their mood, and instantly get music recommenda
 ---
 
 ## 📂 Project Structure
-
 music_ai_assistant/
 │
 ├── backend/
-│   ├── app/
-│   ├── requirements.txt
+│ ├── app/
+│ ├── requirements.txt
 │
 ├── frontend/
-│   ├── src/
-│   ├── public/
+│ ├── src/
+│ ├── public/
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 
 ---
 
